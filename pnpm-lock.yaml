@@ -57,8 +57,8 @@ importers:
         specifier: ^5.3.0
         version: 5.3.0
       asciinema-player:
-        specifier: ^3.15.1
-        version: 3.15.1
+        specifier: ^3.17.0
+        version: 3.17.0
       axios:
         specifier: ^1.18.1
         version: 1.18.1
@@ -1845,8 +1845,8 @@ packages:
   artplayer@5.4.0:
     resolution: {integrity: sha512-2B+plbx8N2yNsjK4nJU3+EOG8TULm1LRZk/QPkWRAMEX2Ee/MSnZG/WJYz8kcoZxZuLKcQ3uXifqLuPxZOH29A==}
 
-  asciinema-player@3.15.1:
-    resolution: {integrity: sha512-agVYeNlPxthLyAb92l9AS7ypW0uhesqOuQzyR58Q4Sj+MvesQztZBgx86lHqNJkB8rQ6EP0LeA9czGytQUBpYw==}
+  asciinema-player@3.17.0:
+    resolution: {integrity: sha512-JbjNJmA2TLIeYNaOEja+kVSzXadKoqpIzVVmfBGNj2DmdtE/vExBCnkE8NYEcpaQcDvUYg8Ltt0urT80frACmw==}
 
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
@@ -3323,9 +3323,6 @@ packages:
     resolution: {integrity: sha512-IesTfr/F1ElVwH2E1110s2RPXH4pujKfSs+koT8rwuTAdleO5s26lNSpqJV7D1+QHooJj18mcOiz2PIKs0ic+A==}
     peerDependencies:
       solid-js: '*'
-
-  solid-js@1.9.12:
-    resolution: {integrity: sha512-QzKaSJq2/iDrWR1As6MHZQ8fQkdOBf8GReYb7L5iKwMGceg7HxDcaOHk0at66tNgn9U2U7dXo8ZZpLIAmGMzgw==}
 
   solid-js@1.9.13:
     resolution: {integrity: sha512-6hJeJMOcEX8ktqjpDoJZEmld3ijvcvWBDtiXBm7f4332SiFN66QeAQI1REQshvyUoISsSeJ4PHDauKYbwao9JQ==}
@@ -5151,10 +5148,10 @@ snapshots:
       '@solid-primitives/utils': 6.3.2(solid-js@1.9.13)
       solid-js: 1.9.13
 
-  '@solid-primitives/refs@1.1.2(solid-js@1.9.12)':
+  '@solid-primitives/refs@1.1.2(solid-js@1.9.13)':
     dependencies:
-      '@solid-primitives/utils': 6.3.2(solid-js@1.9.12)
-      solid-js: 1.9.12
+      '@solid-primitives/utils': 6.4.0(solid-js@1.9.13)
+      solid-js: 1.9.13
 
   '@solid-primitives/rootless@1.5.3(solid-js@1.9.13)':
     dependencies:
@@ -5170,17 +5167,13 @@ snapshots:
     dependencies:
       solid-js: 1.9.13
 
-  '@solid-primitives/transition-group@1.1.2(solid-js@1.9.12)':
+  '@solid-primitives/transition-group@1.1.2(solid-js@1.9.13)':
     dependencies:
-      solid-js: 1.9.12
+      solid-js: 1.9.13
 
   '@solid-primitives/utils@6.3.1(solid-js@1.9.13)':
     dependencies:
       solid-js: 1.9.13
-
-  '@solid-primitives/utils@6.3.2(solid-js@1.9.12)':
-    dependencies:
-      solid-js: 1.9.12
 
   '@solid-primitives/utils@6.3.2(solid-js@1.9.13)':
     dependencies:
@@ -5581,11 +5574,11 @@ snapshots:
     dependencies:
       option-validator: 2.0.6
 
-  asciinema-player@3.15.1:
+  asciinema-player@3.17.0:
     dependencies:
       '@babel/runtime': 7.28.4
-      solid-js: 1.9.12
-      solid-transition-group: 0.2.3(solid-js@1.9.12)
+      solid-js: 1.9.13
+      solid-transition-group: 0.2.3(solid-js@1.9.13)
 
   asynckit@0.4.0: {}
 
@@ -7282,12 +7275,6 @@ snapshots:
     dependencies:
       solid-js: 1.9.13
 
-  solid-js@1.9.12:
-    dependencies:
-      csstype: 3.2.3
-      seroval: 1.5.0
-      seroval-plugins: 1.5.0(seroval@1.5.0)
-
   solid-js@1.9.13:
     dependencies:
       csstype: 3.2.3
@@ -7313,11 +7300,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  solid-transition-group@0.2.3(solid-js@1.9.12):
+  solid-transition-group@0.2.3(solid-js@1.9.13):
     dependencies:
-      '@solid-primitives/refs': 1.1.2(solid-js@1.9.12)
-      '@solid-primitives/transition-group': 1.1.2(solid-js@1.9.12)
-      solid-js: 1.9.12
+      '@solid-primitives/refs': 1.1.2(solid-js@1.9.13)
+      '@solid-primitives/transition-group': 1.1.2(solid-js@1.9.13)
+      solid-js: 1.9.13
 
   solid-transition-group@0.3.0(solid-js@1.9.13):
     dependencies:
